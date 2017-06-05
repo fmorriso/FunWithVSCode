@@ -1,0 +1,25 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "contentMediator.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Progress® Test Studio® & Testing Framework Tests Chrome Execution Extension",
+   "homepage_url": "http://www.telerik.com/teststudio/",
+   "icons": {
+      "128": "images/128.png",
+      "16": "images/16.png",
+      "48": "images/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm6pSdUQhzT5AXmvDylJymy0+7zAO20TAPpWEWF2h+S6zW/rc9HfFvKd/XbubcI0NKg5W0RaisL3IjjBXnF4OpM6GPN7hSf/FqTQhZu+l1cxmQ9fKeAY1qtRZYunD8UVvrRsKOSYNPdHHoZ5IckPJvyD8za9+Czaul8/kOnlpNBQw1nqUMH/KkawrlZCn4o/bujWDrKF4YhQV9ig/g+1mPtuXTrvMk0vBPNdPxgctgmh9WBEEKZYdZ/BP3anVXA4mwIICvAY3nAAMO6NLi8KC2Xk+HwsLpAP/QwKtP1Da8ccTyQ5te0rJbmRPC4FH6TKyemZN6DEQysy8cAxRfCrFhQIDAQAB",
+   "manifest_version": 2,
+   "name": "Progress® Test Studio® Chrome Execution",
+   "permissions": [ "tabs", "cookies", "history", "browsingData", "*://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2017.2.529.1",
+   "web_accessible_resources": [ "images/*.png", "contentProcessor.js" ]
+}

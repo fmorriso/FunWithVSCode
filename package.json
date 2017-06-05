@@ -1,0 +1,26 @@
+{
+  "name": "funwithvscode",
+  "version": "1.0.0",
+  "description": "fun with Visual Studio Code",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^2.3.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmorriso/FunWithVSCode.git"
+  },
+  "keywords": [
+    "vscode"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fmorriso/FunWithVSCode/issues"
+  },
+  "homepage": "https://github.com/fmorriso/FunWithVSCode#readme"
+}
